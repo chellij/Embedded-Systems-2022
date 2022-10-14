@@ -17,7 +17,7 @@ int main()
 
     //Create new scope
     {
-        ComplexNumber test(1.0);
+        ComplexNumber test(1.0, 3.0);
         test.display();
     }
     //test is now out of scope and should be destroyed

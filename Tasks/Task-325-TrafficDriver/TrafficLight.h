@@ -23,7 +23,9 @@ class TrafficLight
     void yellowFlashISR();
     void flashYellow(bool flash);
     void updateOutput();
-
+    void stop();
+    void setFlashSpeed(double sp);
+    void getFlashSpeed(double sp);
     public:
     //Constructor
     TrafficLight(PinName redPin = TRAF_RED1_PIN, PinName yellowPin = TRAF_YEL1_PIN, PinName greenPin=TRAF_GRN1_PIN); 

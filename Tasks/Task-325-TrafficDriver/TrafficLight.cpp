@@ -65,6 +65,20 @@ void TrafficLight::updateOutput()
     }       
 }
 
+void TrafficLight::setFlashSpeed(double sp){
+
+}
+
+void TrafficLight::getFlashSpeed(double sp){
+
+}
+
+void TrafficLight::stop(){
+    redLED = 1;
+    yellowLED = 0;
+    greenLED = 0;
+}
+
 // Moore machine - next state logic
 TrafficLight::LIGHT_STATE TrafficLight::nextState()
 {
